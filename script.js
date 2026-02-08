@@ -97,7 +97,7 @@ function drawText() {
     //fades out the text by decreasing the opacity
     if(frameNumber >= 250 && frameNumber < 500){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("Testing", canvas.width/2, canvas.height/2);
+        context.fillText("Testing...", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
